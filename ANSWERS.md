@@ -1,8 +1,8 @@
 - [ ] Why would you use class component over function components (removing hooks from the question)?
-    Class components allow you to set and update state in a component and pass it to its children components.
+    - [ ] Class components allow you to set and update state in a component and pass it to its children components.
 
 - [ ] Name three lifecycle methods and their purposes.
-    componentDidMount: runs at the end of the mounting phase; it can fetch data, set up event listeners, etc.
+    - [ ] componentDidMount: runs at the end of the mounting phase; it can fetch data, set up event listeners, etc.
     componentDidUpdate: runs after component updates with new state
     componentWillUnmount: removes/destroys event listeners, subscriptions, or timers
 
