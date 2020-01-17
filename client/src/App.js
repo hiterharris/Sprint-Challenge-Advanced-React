@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import PlayerList from './components/PlayerList';
+import Nav from './components/Nav';
 import './App.css';
 
 export default class App extends Component {
@@ -23,6 +24,7 @@ export default class App extends Component {
   render() {
     return (
       <div className='App'>
+        <Nav />
         {this.state.data.map((player, i) => {
           return <PlayerList key={i} player={player} />
         })}
